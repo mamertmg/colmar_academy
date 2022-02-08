@@ -1,0 +1,258 @@
+/* Universal Styles */
+html {
+    font-size: 16px;
+    color: rgb(64,64,64);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Header */
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 4rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-between;
+    
+}
+
+#logo{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    margin-right: 1.5rem;
+}
+
+nav a{
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+/* Banner */
+.banner{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    width: 100%;
+    background-color: rgb(109,121,147);
+    justify-content: center;
+}
+
+.banner .container-right{
+    display: block;
+    width: 40%;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem 1.5rem;
+}
+
+.banner .container-left{
+    display: flex;
+    width: 60%;
+    overflow: hidden;
+    padding: 2rem 1.5rem;
+}
+
+.banner .container-left img {
+    object-fit: contain;
+    width: 100%;
+}
+
+button{
+    background-color: rgb(26,41,48);
+    display: block;
+    color: rgb(250, 250, 250);
+    width: 50%;
+    margin: auto;
+    font-size: 1.25rem;
+    border-radius: 3px;
+    font-weight: 200;
+    transition-property: all;
+    transition-duration: 0.20s;
+}
+
+/* Campus left section */
+.campus {
+    display: flex;
+    width: 100%;
+    background-color: rgb(213,213,213);
+    color: rgb(64,64,64);
+    position: relative;
+    top: 4rem;
+    justify-content: center;
+}
+
+
+.campus .container-left{
+    display: block;
+    width: 60%;
+    overflow: hidden;
+    padding: 2rem 1.5rem;
+}
+
+.campus .container-left img {
+    object-fit: contain;
+    width: 100%;
+}
+
+/* Campus right section */
+
+.campus .container-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(64,64,64);
+    margin: 2rem auto;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.campus .article .image-small{
+    width: 35%
+}
+
+.campus .article .text{
+    width: 65%;
+    margin-left: 1rem;
+}
+
+.image-small img{
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+
+/* Courses */
+
+.courses{
+    display: block;
+    position: relative;
+    top: 2rem;
+    background-color: rgb(150, 133, 143);
+    
+}
+.learning-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.courses-list{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course{
+    width: 28%;
+    margin: 1rem;
+    border: 2px solid rgb(213,213,213);
+    transition-property: all;
+    transition-duration: 0.40s;
+    transition-timing-function: ease-in-out;
+    background-color: white;
+}
+
+.course-image img{
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.course-text{
+    padding: 0.5rem;
+}
+
+
+/* Thesis Exhibit */
+.Thesis{
+    display: block;
+    position: relative;
+    top: 4rem;
+}
+
+.Thesis-exhibit{
+    width: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.exhibits{
+    display: flex;
+}
+
+.exhibits .container-left{
+    width: 60%;
+    display: block;
+    padding: 2rem 1.5rem;
+}
+
+.exhibits .container-right{
+    width: 40%;
+    display: block;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+}
+
+.exhibits .container-right .article .image-small {
+    width: 35%;
+}
+
+.exhibits .container-right .article .text{
+    width: 65%;
+    margin: 1rem;
+}
+
+video{
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    position: relative;
+    top: 4rem;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+.terms-privacy{
+    margin: 1rem;
+}
+
+.copyright{
+    margin-left: 1rem;
+}
